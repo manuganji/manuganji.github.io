@@ -1,10 +1,11 @@
 title:            Manu Ganji
 description:      Manu's technical blog 
 logo:             site-logo.png
-disqus_shortname: 
+disqus_shortname: manuganji
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-# url:              http://manuganji.github.io/
+
+url:              http://manuganji.github.io
 
 # Owner/author information
 owner:

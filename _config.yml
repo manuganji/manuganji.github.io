@@ -4,7 +4,7 @@ logo:             site-logo.png
 disqus_shortname: 
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://manuganji.github.io/
+# url:              http://manuganji.github.io/
 
 # Owner/author information
 owner:
@@ -14,7 +14,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   # twitter:        https://twitter.com/manuganji  
   facebook:       manuganji 
-  github:         
+  github:         manuganji
   stackexchange:  http://stackexchange.com/users/1260472/manu
   linkedin:       manuganji
   instagram:      
@@ -36,11 +36,11 @@ links:
     url: /about/
   - title: Articles
     url: /articles/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+#  - title: Theme Setup
+#    url: /theme-setup/
+#   - title: Made Mistakes
+#     url: http://mademistakes.com
+#     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Kolkata

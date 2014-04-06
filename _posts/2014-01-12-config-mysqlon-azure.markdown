@@ -33,25 +33,25 @@ After this log into mysql as root
 mysql -u root -p
 {% endhighlight %}
 To create a new MySQL user, run the following at the mysql> prompt
-{% highlight bash %}
-CREATE USER ‘mysqluser’@’localhost’ IDENTIFIED BY ‘password’;
+{% highlight mysql %}
+CREATE USER 'mysqluser'@'localhost' IDENTIFIED BY 'password';
 {% endhighlight %}
 Create a database and give all privileges to mysqluser
 {% highlight mysql %}
 CREATE DATABASE testdatabase;
 
-GRANT ALL ON testdatabase.* TO ‘mysqluser’@’localhost’ IDENTIFIED BY ‘password’;
+GRANT ALL ON testdatabase.* TO 'mysqluser'@'localhost' IDENTIFIED BY 'password';
 {% endhighlight %}
 
 Other options in this command are
 
 {% highlight mysql %}
 # give permission on all databases to mysqluser from localhost
-GRANT ALL ON *.* TO ‘mysqluser’@’localhost’ IDENTIFIED BY ‘password’;
+GRANT ALL ON *.* TO 'mysqluser'@'localhost' IDENTIFIED BY 'password';
 
 # give permission on testdatabase to mysqluser connecting 
 # from the particular ip 123.234.132.412 
-GRANT ALL ON testdatabase.* TO ‘mysqluser’@’123.234.132.412’ IDENTIFIED BY ‘password’;
+GRANT ALL ON testdatabase.* TO 'mysqluser'@'123.234.132.412' IDENTIFIED BY 'password';
 {% endhighlight %}
 
 For a complete list of options available you should consult [MySQL Docs](http://dev.mysql.com/doc/refman/5.5/en/grant.html)
@@ -61,13 +61,13 @@ To permit the user mysqluser to connect from any ip,
 {% highlight mysql %}
 # permitting mysqluser from any ip to access students table 
 # on testdatabase
-GRANT ALL ON testdatabase.students TO ‘mysqluser’@’%’ IDENTIFIED BY ‘password’;
+GRANT ALL ON testdatabase.students TO 'mysqluser'@'%' IDENTIFIED BY 'password';
 {% endhighlight %}
-Notice that we used ‘%’ as a wild card for ip while ‘*’ for database/table names wildcard. For a remote user to connect with the correct privileges you need to have that user created in both the localhost and ‘%’ as in.
+Notice that we used '%' as a wild card for ip while '*' for database/table names wildcard. For a remote user to connect with the correct privileges you need to have that user created in both the localhost and '%' as in.
 {% highlight mysql %}
 # creating mysqluser at locahost to access students table 
 # on testdatabase
-GRANT ALL ON testdatabase.students TO ‘mysqluser’@’locahost’ IDENTIFIED BY ‘password’;
+GRANT ALL ON testdatabase.students TO 'mysqluser'@'locahost' IDENTIFIED BY 'password';
 {% endhighlight %}
 
 Exit the mysql shell

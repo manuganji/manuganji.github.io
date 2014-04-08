@@ -3,6 +3,7 @@ title: Tools and libraries for A/B testing
 layout: post
 author: manu
 categories: A/B testing
+tags: [planout, vanity, six pack, A/Bingo, Optimizely]
 ---
 
 We were looking for some good A/B testing tools and libraries for our internal products. These are some good projects we came across useful for production level deployments with commercially friendly licenses.

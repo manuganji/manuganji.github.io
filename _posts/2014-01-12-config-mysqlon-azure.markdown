@@ -2,7 +2,8 @@
 title: Configuring mysql server on Ubuntu in Azure
 layout: post
 author: manu
-categories: jekyll testing
+categories: deployment
+tags: [mysql, azure, ubuntu-server, remote-access]
 ---
 
 We recently had to create a mysql server on an Azure VM and give remote access to one database.

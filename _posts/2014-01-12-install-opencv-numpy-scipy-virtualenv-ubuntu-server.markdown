@@ -2,7 +2,8 @@
 title: Installation of Opencv, numpy, scipy inside a virtualenv
 layout: post
 author: manu
-categories: jekyll testing
+categories: deployment
+tags: [opencv, numpy, scipy, virtualenv, ubuntu-server,]
 ---
 
 Useful for python server side deployments that need computer vision.

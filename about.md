@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About this blog
-tags: [manuganji, manu, ganji, technical, blog, about]
+tags: [manuganji, technical, blog, about]
 modified: 2014-01-29
 ---
 

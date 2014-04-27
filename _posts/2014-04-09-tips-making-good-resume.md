@@ -31,4 +31,4 @@ To tell you in a technical way, try to keep the reviewer at cognitive ease. And 
 
 What makes me confident about these assertions? There is a rule called WYSIATI - "What you see is all there is". It's explained very well by Daniel Kahnemahn in his landmark book [Thinking, Fast and Slow](http://www.flipkart.com/thinking-fast-slow/p/itmdurspj3kgxrgq?pid=9781846146060&affid=manuganji). I'll probably write about it sometime later. Ofcourse, the upside is without all that bullshit, your resume actually looks prettier.
 
-> Make every detail perfect and limit the number of details to perfect - Jack Dorsey
+> The confidence that individuals have in their beliefs depends mostly on the quality of the story they can tell about what they see, even if they see little. - Daniel Kahneman, Thinking, Fast and Slow

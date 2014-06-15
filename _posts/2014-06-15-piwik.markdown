@@ -1,0 +1,20 @@
+---
+title: Piwik the open source web analytics library
+layout: post
+author: manu
+categories: Data Analytics
+tags: [piwik, data, lean, mixpanel, heap]
+---
+About 2 months in my first job at Kony, a colleague of mine, [Sunil](https://www.facebook.com/sunil.kaja) showed me how to use a debugger to step through lines of code and see the state of a piece of programme at any point.
+
+<figure>
+	<img src="/images/debugger_console.png">
+	<figcaption>A debugger console</figcaption>
+</figure>
+
+To me, web analytics tools come very close to giving that same debugger like insight into the business side of an app. 
+I recently came across [Piwik](
+http://piwik.org). It's an open source alternative to [mixpanel](http://mixpanel.com), [kiss-metrics](https://www.kissmetrics.com/), [Heap Analytics](https://heapanalytics.com/) and other data analytics platforms. The reason we have to use one of these tools in addition to [Google Analytics](http://www.google.com/analytics/) (GA) is that GA makes it very hard to identify the user who's doing a particular action. Without a good identifier it is hard to decipher user behaviour on
+your website. Suffice it to say this - I'll not recommend a friend to your work place if you are not actively analyzing user behaviour on your site using a tool like this. In that case, you are just shooting in the dark.
+
+Piwik matches almost all the features that those proprietary solutions offer and also has a pro version with commercial support. Piwik is going to be one of my favorite open source projects for some time to come for the sheer value it adds to any organization. It also comes with good documentation.

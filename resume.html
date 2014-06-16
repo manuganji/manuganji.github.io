@@ -172,26 +172,30 @@ comments: true
 			}
 		}
 	</style>
+    <script type="text/javascript" charset="utf-8">
+        <!-- Google Analytics Content Experiment code -->
+        <script>function utmx_section(){}function utmx(){}(function(){var
+k='73809842-1',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+        length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+        '<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+        '://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+        '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+        valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+        '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+        </script><script>utmx('url','A/B');</script>
+        <!-- End of Google Analytics Content Experiment code -->
+    </script>
 </head>
 <body class="lang-en ">
 
 <div id="main">
 	
 	<h1 id="title">Manu Ganji</h1>
-	<div class="basic-info section">
-					<p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value">manuganji@gmail.com</span></p>
-		
-					<p class="website"><label>Website<span class="colon">:</span></label> <span class="value"><a href="http://manuganji.github.io" rel="nofollow">http://manuganji.github.io</a></span></p>
-		
-					<p class="phone"><label>Phone<span class="colon">:</span></label> <span class="value">+91-8500719336</span></p>
-		
-					<p class="address "><label>Address<span class="colon">:</span></label>
-				<span class="value">
-					G. Manu<br />S/o G. Ganeswara Rao, 8-6-26<br />Balajirao Pet, Tenali, A.P. - 522202				</span>
-			</p>
-				<div class="clear"> </div>
-	</div><!-- basic-info //-->
-
+    <!--
+	 --><!-- basic-info //-->
 	
 		
 			<div class="section section-1364749435263">
@@ -306,9 +310,43 @@ comments: true
 						</div>
 					</div>
 		</div>
+        <div id="contact_details">
+             <button type="button">Fetch my contact details</button>
+        </div>
 		
 </div>
 	<div id="credit">Made with <a href="https://cvmkr.com/">CV Maker</a></div>
 {% include scripts.html %}          
+<script type="text/javascript" charset="utf-8">
+$(function(){
+
+    if (location.hash.length !== 0) {
+        query_params = location.hash.split('#')[1]; 
+        exp_values = {};
+        $.each(query_params.split('&'), function (indx, value) {
+            key = value.split('=')[0];
+            value = value.split('=')[1];
+            if ( parseInt(value) > 0 ) {
+                exp_values[key] = "#" + value; // hex color code
+            } else {
+                exp_values[key] = value;
+            }
+        });
+        $("#contact_details>button").css({
+            "color": exp_values.color,
+            "background": exp_values.background
+        });
+    }
+
+    $("#contact_details>button").click(function(){
+        $.get("/contact_details.html", function (resp) {
+            $("#contact_details").html(resp);
+        });
+    });
+    $("#contact_details>button").click(function(){
+        ga('send', 'event', 'button', 'click', 'contact'); 
+    });
+})
+</script>
 </body>
 </html>

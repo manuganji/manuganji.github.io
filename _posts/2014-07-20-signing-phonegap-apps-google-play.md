@@ -7,7 +7,8 @@ tags: [phonegap, google play, signing, build]
 ---
 * Run `phonegap build android` from the folder containing `www` folder
 * `cd` to this path `platforms/android/`
-* Make sure `ant.properties` in this folder contains these keys and right values
+* Make sure `ant.properties` in this folder contains these keys and the right values
+
 > key.store=<absolute_path_to_keystore_file_on_disk>
 >
 > key.alias=<alias_value>
@@ -15,6 +16,7 @@ tags: [phonegap, google play, signing, build]
 > key.store.password=<store_password>
 >
 > key.alias.password=<alias_password>
+
 * increment the `versionCode` in `AndroidManifest.xml` in this folder
 * `cd` to `ant-build` folder from this folder
 * run `./build --release` in this folder. 

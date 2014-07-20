@@ -12,7 +12,7 @@ I love elegant stuff like Python which abstract away the needless complexity. Pr
 
 # Toolkit 
 
-* [Vim](http://www.vim.org/) with the ultimate Vim [configuration](http://amix.dk/vim/vimrc.html)
+* [Vim](http://www.vim.org/) with the [ultimate Vim configuration](http://amix.dk/vim/vimrc.html)
 * I work in [Ubuntu](http://ubuntu.com) almost all the time
 
 # Skillset
@@ -23,4 +23,4 @@ I love elegant stuff like Python which abstract away the needless complexity. Pr
 
 # Reaching me
 
-You can contact me at manuganji[AT]gmail.com for any consulting or freelancing engagements.
+You can contact me at manuganji[AT]gmail.com. I'm currently not available to take up any consulting or freelancing engagements.

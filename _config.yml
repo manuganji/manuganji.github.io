@@ -14,8 +14,8 @@ owner:
   avatar:         bio-photo.jpg
   email:          manuganji@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  # twitter:        https://twitter.com/manuganji  
-  facebook:       manuganji 
+  twitter:        manuganji  
+  # facebook:       manuganji 
   github:         manuganji
   stackexchange:  http://stackexchange.com/users/1260472/manu
   linkedin:       manuganji

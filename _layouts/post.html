@@ -34,7 +34,7 @@
                 <a href="#disqus_thread">Comment</a>
             </span>
         {% endif %}
-        <span><a href="/{{ page.url }}" rel="bookmark" title="{{ page.title }}" itemprop="url"><i class="icon-link"></i> Permalink</a></span>
+        <span><a href="{{site.url}}{{ page.url }}" rel="bookmark" title="{{ page.title }}" itemprop="url"><i class="icon-link"></i> Permalink</a></span>
         {% if page.share != false%}
         <span class="social-share-facebook">
             <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>

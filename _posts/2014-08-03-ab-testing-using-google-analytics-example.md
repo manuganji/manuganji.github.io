@@ -69,29 +69,29 @@ Setting up the goal on GA
 -----------------------------
 * Creating the goal
     
-    Go to the admin tab in google analytics and click on "Goals" under the column "All web site data".
-    ![GA admin](/images/create_goal_flow.png)
-    
-    Once inside, click on "+Goal" button and finish the steps like shown below.
-    I'm using the default values for most of the settings. The default values work for the event recording code above.
-    ![create goal page](/images/goal_create_page.png)
+  Go to the admin tab in google analytics and click on "Goals" under the column "All web site data".
+  ![GA admin](/images/create_goal_flow.png)
+  
+  Once inside, click on "+Goal" button and finish the steps like shown below.
+  I'm using the default values for most of the settings. The default values work for the event recording code above.
+  ![create goal page](/images/goal_create_page.png)
 
 * Creating the experiment
 
-    Navigate to experiments section under "Behaviour"
-    ![Experiment section](/images/experiments_tab_ga.png)
-    Create an experiment and use the goal we created above as the objective of the experiment.
+  Navigate to experiments section under "Behaviour"
+  ![Experiment section](/images/experiments_tab_ga.png)
+  Create an experiment and use the goal we created above as the objective of the experiment.
 
-    Once inside follow the help section (click on the "academic hat" icon on the top right to see it)
-    to create the experiment. You can make the urls for the alternatives like so:
+  Once inside follow the help section (click on the "academic hat" icon on the top right to see it)
+  to create the experiment. You can make the urls for the alternatives like so:
 
-    \<original_page_url\>#color=red&background=white
+  \<original_page_url\>#color=red&background=white
 
-    for example, in my case the original page is at http://manuganji.github.io/resume.html
-    so the variants are like the following
+  for example, in my case the original page is at http://manuganji.github.io/resume.html
+  so the variants are like the following
 
-    * http://manuganji.github.io/resume.html#color=red&background=white
-    * http://manuganji.github.io/resume.html#color=black&background=yellow
+  * http://manuganji.github.io/resume.html#color=red&background=white
+  * http://manuganji.github.io/resume.html#color=black&background=yellow
 
 Results
 ----------

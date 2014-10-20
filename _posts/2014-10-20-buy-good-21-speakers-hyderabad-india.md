@@ -7,7 +7,7 @@ tags: [speakers, buy, buying guide, buying in india, hyderabad]
 comments: true
 share: true
 ---
-You want to buy a good 2.1 speakers system under 6,000 INR in Hyderabad. This is the research I did for the same. The online prices are way higher than what you can get offline. For example, this C3 listed below is sold at ~11k online but apparently you can get one for ~6k offline.
+You want to buy a good 2.1 speakers system under 6,000 INR in Hyderabad. This is the research I did for the same. The online prices are way higher than what you can get offline. For example, this C3 that I listed below is sold at ~11k online but apparently you can get one for ~6k offline.
 
 #### Expert advice
 
@@ -21,7 +21,7 @@ You want to buy a good 2.1 speakers system under 6,000 INR in Hyderabad. This is
 
 #### Best place to get Edifier
 
-There is only one authorized dealer in Telangana and AP - [Harshub Infotech](http://www.justdial.com/Hyderabad/Harshubh-Infotech-%3Cnear%3E-Beside-Hong-Kong-Mobile-Bazar-Secunderabad/040PXX40-XX40-101222094640-U9C6_SHlkZXJhYmFkIENvbXB1dGVyIFNwZWFrZXIgRGVhbGVycyBFZGlmaWVy_BZDET). Edifier has pretty bad support distribution and support network. Thankfully, they don't get many repairs.
+There is only one authorized dealer in Telangana and AP - [Harshub Infotech](http://www.justdial.com/Hyderabad/Harshubh-Infotech-%3Cnear%3E-Beside-Hong-Kong-Mobile-Bazar-Secunderabad/040PXX40-XX40-101222094640-U9C6_SHlkZXJhYmFkIENvbXB1dGVyIFNwZWFrZXIgRGVhbGVycyBFZGlmaWVy_BZDET). Edifier has a pretty bad distribution and support network. Thankfully, they don't need many repairs in general.
 
 #### Best place to get Swans
 

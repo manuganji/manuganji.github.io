@@ -3,7 +3,7 @@ layout: post
 title: Buying a good 2.1 speakers system in Hyderabad, India
 description: "You want to buy a good 2.1 speakers system under 6k in Hyderabad. You can follow this guide to select the best."
 category: buying guide
-tags: [speakers, buy, buying guide, buying in india, hyderabad]
+tags: [speakers, buy, buying-guide, buying-in-india, hyderabad]
 comments: true
 share: true
 ---

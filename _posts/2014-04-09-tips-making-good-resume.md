@@ -3,7 +3,7 @@ title: Tips on making a good resumé
 description: A few tips on making a good resumé (CV) that I have collected over the last few months. A good number of friends found them useful.
 layout: post
 author: manu
-categories: resumé, resume
+categories: resume
 tags: [resumé, careers, job-search, WYSIATI, resume]
 ---
 

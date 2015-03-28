@@ -3,7 +3,7 @@ title: Lesson learnt in my startup - No charity please
 layout: post
 author: manu
 categories: startup
-tags: [startu, mistake, lesson, paid, free, charity]
+tags: [startup, mistake, lesson, paid, free, charity]
 ---
 If there is one biggest learning that I had in my startup experience it's this
 

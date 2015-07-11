@@ -42,8 +42,8 @@ links:
     url: /articles/
   - title: Work
     url: /work/
-  - title: Resumé
-    url: /resume.html
+#  - title: Resumé
+#    url: /resume.html
 #  - title: Theme Setup
 #    url: /theme-setup/
 #   - title: Made Mistakes

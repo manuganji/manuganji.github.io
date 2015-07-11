@@ -25,8 +25,9 @@ I love elegant stuff like Python which abstract away the needless complexity. Th
 * Python, Django
 * Node.js, Meteor
 * PHP, Code Igniter
+* JavaScript, Backbone JS, React
 * C#
-* HTML, CSS, JS, Lua, Kony Studio
+* HTML, CSS, Lua, Kony Studio
 
 # Reaching me
 

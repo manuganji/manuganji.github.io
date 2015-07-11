@@ -10,9 +10,10 @@ These are some of the projects I have done till now
 
 # My Experience
 
-* [Dres.sy](http://dres.sy/) - I developed this site from scratch till Beta using Django, OpenCV and implemented Asynchronous task queues using Celery and Rabbit MQ
-* [Optmyzr](http://optmyzr.com) - While working with Optmyzr I was mainly responsible for maintenance and development of One Click Optimizations and Data Insights Tools
-* [Sarkar](http://sarkar.manuganji.com) - This is a small Django site made to provide important information about Indian Bureaucratic procedures
+* [Kony Mobile Insurance](http://www.kony.com/solutions/industry-solutions-insurance) - This was a cross platform mobile app targetting the insurance vertical. Made using [Kony Studio](http://www.kony.com/products/studio).
+* [Dres.sy](http://dres.sy/) - I developed this site from scratch till public beta using Django framework, OpenCV and implemented Asynchronous task queues using Celery and Rabbit MQ
+* [Optmyzr](http://optmyzr.com) - I was responsible for maintenance and development of One Click Optimizations and Data Insights Tools inside Optmyzr. Used BackboneJS, Code Igniter and C#
+* [Sarkar](http://sarkar.manuganji.com) - This is a small Django based website made to provide important information about Indian Bureaucratic procedures
 
 # Hire me
 

@@ -15,18 +15,18 @@ I love elegant stuff like Python which abstract away the needless complexity. Th
 * [Vim](http://www.vim.org/) with the [ultimate Vim configuration](http://amix.dk/vim/vimrc.html)
 * I work in [Ubuntu](http://ubuntu.com) almost all the time
 
-# Programming Skillset
+# Skills
+
+* Lean Startup Methodology
+* Pay Per Click Marketing
+
+---
 
 * Python, Django
 * Node.js, Meteor
 * PHP, Code Igniter
 * C#
 * HTML, CSS, JS, Lua, Kony Studio
-
-# Business Skillset
-
-* Pay Per Click Marketing
-* Lean Startup Methodology
 
 # Reaching me
 

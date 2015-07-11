@@ -36,8 +36,12 @@ bing_verify:
 links:
   - title: About
     url: /about/
+  - title: Home
+    url: /
   - title: Articles
     url: /articles/
+  - title: Work
+    url: /work/
   - title: Resumé
     url: /resume.html
 #  - title: Theme Setup

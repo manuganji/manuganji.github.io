@@ -116,17 +116,16 @@ overflow-y: hidden;
 
 }
 
-img.featurette-image {
+figure.featurette-image {
 box-sizing: border-box;
 color: #333;
 display: block;
 floatrightfont-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 14px;
-height: 500px;
 line-height: 20px;
 margin-left: 40px;
 margin-right: 40px;
-max-width: 1140px;
+max-width: 500px;
 vertical-align: middle;
 }
 
@@ -172,14 +171,24 @@ float: right !important;
 }
 </style>
 
+<div style="width:2%;float:right;position:fixed;top:5%;right:1%">
+<span class="social-share-facebook">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i></a></span>
+<span class="social-share-twitter">
+    <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i></a></span>
+<span class="social-share-googleplus">
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i></a></span>
+</div>
+<!-- /.social-share -->
 
 <div>
     <!-- Full Width Image Header -->
     <header class="header-image">
         <div class="headline">
+
             <div class="container">
-                <h4>Hire me for your web development project and then pay whatever feels right</h4>
-                <!-- <h2>And then pay whatever feels right to you</h2> -->
+                <h4>Hire me for your software project</h4>
+                <h2>Pay what feels right</h2>
             </div>
         </div>
     </header>
@@ -191,35 +200,47 @@ float: right !important;
 
         <!-- First Featurette -->
         <div class="featurette">
-            <img style="" class="featurette-image img-circle img-responsive pull-right" src="/images/golf_hole.jpg">
+            <figure class="featurette-image img-circle img-responsive pull-right">
+                <img src="/images/golf_hole.jpg">
+                <figcaption><a href="https://www.flickr.com/photos/markusspiske/">Flickr User: markus spiske</a></figcaption>
+            </figure>
             <h2 class="featurette-heading">Highest Quality
             </h2>
-            <p class="lead">Pay What Feels Right doesn't mean a compromise on quality. My focus is <span style="color:darkorange;">100%</span> on building great software for you. I'll follow all the best practices to guarantee Resiliency, Long-term Maintainability and Agility for your business.</p>
+            <p class="lead">Pay What Feels Right doesn't mean a compromise on quality. My focus is <span style="color:darkorange;">100%</span> on building great software. I'll follow all the best practices to guarantee Resiliency, Long-term Maintainability and Agility for your business.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="featurette" id="services">
-            <img style="" class="featurette-image img-circle img-responsive pull-left" src="/images/transparency.jpg">
-            <h2 class="featurette-heading">Complete Transparency
+
+            <figure class="featurette-image img-circle img-responsive pull-left">
+                <img width=350 src="/images/transparency.jpg">
+                <figcaption><a href="https://www.flickr.com/photos/22746515@N02/">Flickr User: Bert Kaufmann</a></figcaption>
+            </figure>
+            <h2 class="featurette-heading">Absolute Transparency
             </h2>
-            <p class="lead">Un-restricted access to all aspects of development - Architecture, Source code, Documentation and Hosting credentials. I'm on <i>your</i> side.</p>
+            <p class="lead">Un-restricted access to all the layers of your project - Architecture, Source code, Documentation and Hosting credentials. I'm on <i>your</i> side. It should be a cake walk even if you decide to hire a different developer for the later stages.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="/images/gift_economy.jpg">
+            <figure class="featurette-image img-circle img-responsive pull-right">
+                <img src="/images/gift_economy.jpg">
+                <figcaption>"<a href="https://commons.wikimedia.org/wiki/File:Klallam_people_at_Port_Townsend.jpg#/media/File:Klallam_people_at_Port_Townsend.jpg">Klallam people at Port Townsend</a>" by James Gilchrist Swan (1818-1900) - <a rel="nofollow" class="external text" href="http://beinecke.library.yale.edu/dl_crosscollex/brbldl/oneITEM.asp?pid=2003195&amp;iid=1013473">Duke of York House, Jenny Lind</a> at beinecke.library.yale.edu. Licensed under Public Domain via <a
+                                href="https://commons.wikimedia.org/wiki/">Wikimedia Commons</a>.</figcaption>
+            </figure>
             <h2 class="featurette-heading">Pay what feels right
                 <span class="text-muted"></span>
             </h2>
-            <p class="lead">I'm running this experiment in gift economy. At each milestone project milestone, you can pay me whatever feels right for you. I will provide all necessary information (like the number of hours spent, etc.) for you to make a decision.</p>
+            <p class="lead">I'm running an experiment in Gift Economy where I trust that when I give, I will also receive. At the end of each project milestone, you can pay me whatever feels right for <i>you</i>. I will provide all the necessary information (the hours spent, etc.) to arrive at a number.</p>
         </div>
 
         <hr class="featurette-divider">
         <!-- <h3 style="font-weight:normal;">If you have a project in mind please fill out the form below and I'll get back to you soon.</h3> -->
+        
         <center><iframe src="https://docs.google.com/forms/d/1OL07Y_5TqQdef2EoGwNMRCaY7yy5yD9rT5kGsAkgk1I/viewform?embedded=true" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></center>
     </div>
     <!-- /.container -->

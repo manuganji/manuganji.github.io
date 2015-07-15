@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title:
+title: About
 tags: [manu ganji, technical, blog, about]
 modified: 2014-01-29
 ---

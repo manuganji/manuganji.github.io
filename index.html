@@ -1,12 +1,231 @@
 ---
+title: Home
 layout: page
 description: "Here, I share the programming stuff that I learn. Many times, it's for my own reference. It might help people stuck with similar problems. I have seen a lot of professional growth due to the efforts of various opensource communities. This is my small way of giving back."
 tags: [Manu, Ganji, technology, programming, blog,]
 ---
+<!--
 <h5>Welcome to my web home!</h5>
-
 <ul class="post-list">
 {% for post in site.posts limit:10 %} 
   <li><article><a href="{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 {% endfor %}
 </ul>
+-->
+<style>
+header.header-image {
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+/* background-image: url("http://placehold.it/1900x500"); */
+background-origin: padding-box;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: cover;
+box-sizing: border-box;
+color: #333;
+display: block;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+
+}
+
+header.header-image h1,
+header.header-image h2,
+header.header-image h3,
+header.header-image h4,
+header.header-image h5,
+header.header-image h6 {
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(255, 255, 255, 0.9);
+background-image: none;
+background-origin: padding-box;
+background-position: 0% 0%;
+background-repeat: repeat;
+background-size: auto auto;
+box-sizing: border-box;
+color: #333;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 130px;
+font-weight: 500;
+line-height: 143px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 20px;
+text-align: center;
+
+}
+
+header.header-image h2 {
+font-size: 77px;
+line-height: 84.7px;
+}
+
+header.header-image h4 {
+font-size: 35px;
+line-height: 42.0px;
+}
+
+hr.featurette-divider {
+border-bottom-color: #808080;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0 0 0 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100% 100% 100% 100%;
+border-image-source: none;
+border-image-width: 1 1 1 1;
+border-left-color: #808080;
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: #808080;
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: #EEE;
+border-top-style: solid;
+border-top-width: 1px;
+box-sizing: content-box;
+color: #808080;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+height: 0px;
+line-height: 20px;
+margin-bottom: 80px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 80px;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+}
+
+div.featurette {
+box-sizing: border-box;
+color: #333;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 20px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+
+}
+
+img.featurette-image {
+box-sizing: border-box;
+color: #333;
+display: block;
+floatrightfont-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+height: 500px;
+line-height: 20px;
+margin-left: 40px;
+margin-right: 40px;
+max-width: 1140px;
+vertical-align: middle;
+}
+
+h2.featurette-heading {
+box-sizing: border-box;
+color: #333;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 50px;
+font-weight: 500;
+line-height: 55px;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+
+h2.featurette-heading span.text-muted {
+box-sizing: border-box;
+color: #777;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 50px;
+font-weight: 500;
+line-height: 55px;
+}
+
+p.lead {
+box-sizing: border-box;
+color: #333;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 21px;
+font-weight: 300;
+line-height: 29.4px;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+}
+
+.pull-left {
+float: left !important;
+}
+
+.pull-right {
+float: right !important;
+}
+</style>
+
+
+<div>
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h4>Hire me for your web development project and then pay whatever feels right</h4>
+                <!-- <h2>And then pay whatever feels right to you</h2> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container" style="width:90%;padding-left:5%;">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette">
+            <img style="" class="featurette-image img-circle img-responsive pull-right" src="/images/golf_hole.jpg">
+            <h2 class="featurette-heading">Highest Quality
+            </h2>
+            <p class="lead">Pay What Feels Right doesn't mean a compromise on quality. My focus is <span style="color:darkorange;">100%</span> on building great software for you. I'll follow all the best practices to guarantee Resiliency, Long-term Maintainability and Agility for your business.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="services">
+            <img style="" class="featurette-image img-circle img-responsive pull-left" src="/images/transparency.jpg">
+            <h2 class="featurette-heading">Complete Transparency
+            </h2>
+            <p class="lead">Un-restricted access to all aspects of development - Architecture, Source code, Documentation and Hosting credentials. I'm on <b>YOUR</b> side.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="contact">
+            <img class="featurette-image img-circle img-responsive pull-right" src="/images/gift_economy.jpg">
+            <h2 class="featurette-heading">Pay what feels right
+                <span class="text-muted"></span>
+            </h2>
+            <p class="lead">I'm running this experiment in gift economy. At each milestone project milestone, you can pay me whatever feels right for you. I will provide all necessary information (like the number of hours spent, etc.) for you to make a decision.</p>
+        </div>
+
+        <hr class="featurette-divider">
+        <h3 style="font-weight:normal;">If you have a project in mind please fill out the form below and I'll get back to you soon.</h3>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="index_reference_files/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="index_reference_files/bootstrap.js"></script>
+</div>

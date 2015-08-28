@@ -5,8 +5,8 @@ disqus_shortname: manuganji
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
 
-url:              http://manuganji.github.io
-domain_name:      manuganji.github.io
+url:              http://manuganji.com
+domain_name:      manuganji.com
 
 # Owner/author information
 owner:

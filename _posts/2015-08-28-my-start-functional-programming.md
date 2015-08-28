@@ -19,7 +19,7 @@ The general focus in a functional program is on the **what** not the **how**. Th
 
 My favorite feature of FP is **Pure functions**. It means that functions should not have any side effect and their behaviour should be completely determined by their inputs. Pause and think about that for a moment. How much predictability that brings to your programs! 
 
-My second favorite feature is actually using the fact that functions are first class objects in these languages. You can pass around a function just like any other variable. So you can make a function compose another function for use in that scope.
+My second favorite feature is actually using the fact that **functions are first class objects** in these languages. You can pass around a function just like any other variable. So you can make a function compose another function for use in that scope.
 
 The [functools](https://docs.python.org/3.5/library/functools.html), [itertools](https://docs.python.org/3.5/library/itertools.html) and [operator](https://docs.python.org/3.5/library/operator.html) modules provide some great methods to get your program closer to this philosophy.
 

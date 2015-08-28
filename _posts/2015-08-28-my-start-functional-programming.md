@@ -21,7 +21,7 @@ My favorite feature of FP is **Pure functions**. It means that functions should 
 
 My second favorite feature is actually using the fact that **functions are first class objects** in these languages. You can pass around a function just like any other variable. So you can make a function compose another function for use in that scope.
 
-The [functools](https://docs.python.org/3.5/library/functools.html), [itertools](https://docs.python.org/3.5/library/itertools.html) and [operator](https://docs.python.org/3.5/library/operator.html) modules provide some great methods to get your program closer to this philosophy.
+In Python, the [functools](https://docs.python.org/3.5/library/functools.html), [itertools](https://docs.python.org/3.5/library/itertools.html) and [operator](https://docs.python.org/3.5/library/operator.html) modules provide some great methods to get your program closer to this philosophy.
 
 For example `functools.lru_cache` helps to memoize a function, `functools.partial` takes a function and few of it's arguments and returns a function that takes the remaining arguments. For example:
 

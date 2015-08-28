@@ -11,11 +11,11 @@ I had been hearing about Functional Programming for a lot of time. [This](http:/
 
 I could instantly connect that the reason for majority of the bugs is state dependent design. A bug is simply your program entering a state that you didn't predict it to enter. The state is the value of all the variables in your program at any one moment. If you took a series of snapshots of your program's execution, you'd see a progress from one state to the next with each processor cycle. It's a great talk and I recommend you to watch it.
 
-The 'Function' in Functional Programming comes from the mathematical definition of a function.
+The 'Function' in Functional Programming comes from the Mathematics.
 
 > A function is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output.
 
-The general focus in a functional program is on the **what** not the **how**. The code tries to tell what is the output of a function and generally speaks less about how to get to that output. So, if you were looping over a list, you would generally user `map` function over writing your own `for` loop.
+The general focus in a functional program is on the **what** not the **how**. The code tries to tell what is the output of a function and generally speaks less about how to get to that output. So, if you were looping over a list, you would generally use a `map` function over writing your own `for` loop.
 
 My favorite feature of FP is **Pure functions**. It means that functions should not have any side effect and their behaviour should be completely determined by their inputs. Pause and think about that for a moment. How much predictability that brings to your programs! 
 

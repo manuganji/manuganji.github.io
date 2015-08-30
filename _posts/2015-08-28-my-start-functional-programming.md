@@ -37,7 +37,7 @@ For example `functools.lru_cache` helps to memoize a function, `functools.partia
 
 `itertools.map`, `itertools.filter`, etc will help to avoid ugly looping structures like `for` and `while`.
 
-`operator.itemgetter`, `operator.add`, etc also help to avoid some redundant code. Remember that item when you had to get the *[a]* of every *[b]* of every *[c]*? You can write that more elegantly:
+`operator.itemgetter`, `operator.add`, etc also help to avoid some redundant code. Remember that time when you had to get the *[a]* of every *[b]* of every *[c]*? You can write that more elegantly:
 
     get_a = operator.itemgetter("a")
     get_b = operator.itemgetter("b")

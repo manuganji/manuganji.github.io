@@ -1,12 +1,8 @@
 <meta charset="utf-8">
 <title>
     {% if page.title %}
-        {% if page.title == "Home" %}
-        Hire me for your software project! Pay what feels right
-        {% else %}
         {{ page.title }}
-
-        {% endif %} &#8211;
+         &#8211;
     {% endif %} {{ site.title }}
 </title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">

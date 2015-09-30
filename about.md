@@ -6,9 +6,7 @@ tags: [manu ganji, technical, blog, about]
 modified: 2014-01-29
 ---
 
-Here I share the programming stuff that I learn. Many times it's for my own reference. It might help people stuck with similar problems. I have seen a lot of professional growth due to the efforts of various opensource communities. This is my small way of giving back.
-
-I love elegant stuff like Python which abstract away the needless complexity. These days I'm spending a lot of time with [Node.js](http://nodejs.org/), [CoffeeScript](http://coffeescript.org/), [Meteor](http://meteor.com), [Python](http://python.org) and [Django](http://djangoproject.com)
+Here I share my professional learnings. Many times it's for my own future reference. It might help people stuck with similar problems. I have seen a lot of professional growth due to the efforts of various opensource communities. This is my small way of giving back.
 
 # Toolkit 
 
@@ -31,6 +29,6 @@ I love elegant stuff like Python which abstract away the needless complexity. Th
 * HTML, CSS, Twitter Bootstrap
 * Markdown, Lua
 
-# Reaching me
-
-You can contact me at manuganji[AT]gmail.com.
+<center style="margin-top:30px;">
+    <iframe style="min-width:325px;" src="https://docs.google.com/forms/d/1OL07Y_5TqQdef2EoGwNMRCaY7yy5yD9rT5kGsAkgk1I/viewform?embedded=true" width="35%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</center>

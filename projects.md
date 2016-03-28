@@ -1,9 +1,10 @@
 ---
 layout: page
 permalink: /work/
-title: 
+title: Work
 tags: [manuganji, work, projects, past, experience]
 modified: 2014-01-29
+group: navigation
 ---
 
 These are some of the projects I have done till now

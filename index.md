@@ -9,6 +9,8 @@ group: navigation
     <h1>Hello, world!</h1>
     <p>Here I share the programming stuff that I learn. Many times, it's for my own reference. It might help people stuck with similar problems. I have seen a lot of professional growth due to the efforts of various opensource communities. This is my small way of giving back.</p>
 </div>
+<h4>Recent Articles</h4>
+<hr/>
 <ul class="post-list">
 {% for post in site.posts limit:10 %} 
   <li><article><a href="{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>

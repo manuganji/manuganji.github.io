@@ -80,7 +80,9 @@
 
     </div>
     <div id="wrap" class="container">
-        <a class="btn btn-large btn-primary pull-right" href="https://twitter.com/share?text={{page.title}}|{{site.title}}">Tweet</a>
+        {% comment %}
+        <a class="btn btn-large btn-primary pull-right" href="https://twitter.com/share?url={{site.production_url}}{{page.url}}&text={{page.title}}|{{site.title}}">Tweet</a>
+        {% endcomment %}
         {{ content }}
     </div>
 

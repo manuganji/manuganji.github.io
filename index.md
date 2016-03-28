@@ -1,13 +1,13 @@
 ---
 title: Home
 layout: page
-description: "Here I share the programming stuff that I learn. Many times, it's for my own reference. It might help people stuck with similar problems. I have seen a lot of professional growth due to the efforts of various opensource communities. This is my small way of giving back."
+description: "Here I share the programming stuff that I learn. Many times it's for my own reference. It might help people stuck with similar problems. This is my small way of giving back."
 tags: [Manu, Ganji, technology, programming, blog,]
 group: navigation
 ---
 <div class="hero-unit">
     <h1>Hello, world!</h1>
-    <p>Here I share the programming stuff that I learn. Many times, it's for my own reference. It might help people stuck with similar problems. I have seen a lot of professional growth due to the efforts of various opensource communities. This is my small way of giving back.</p>
+    <p>Here I share the programming stuff that I learn. Many times it's for my own reference. It might help people stuck with similar problems. This is my small way of giving back.</p>
 </div>
 <h4>Recent Articles</h4>
 <hr/>

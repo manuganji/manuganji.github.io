@@ -7,7 +7,7 @@ tags: [python, collections]
 ---
 Borrowing [Kenneth Reitz](https://github.com/kennethreitz) code to implement case insensitive keys in Python Dict.
 
-```
+{% highlight python %}
 import collections
 
 class CaseInsensitiveDict(collections.MutableMapping):
@@ -78,4 +78,4 @@ class CaseInsensitiveDict(collections.MutableMapping):
     def __repr__(self):
 		return '%s(%r)' % (self.__class__.__name__, dict(self.items()))
 
-```
+{% endhighlight %}

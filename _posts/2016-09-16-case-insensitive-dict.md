@@ -5,14 +5,13 @@ description: "Implementation of Case Insensitive keys in python"
 categories: python
 tags: [python, collections]
 ---
-Borrowing [Kenneth Reitz](https://github.com/kennethreitz) code to implement case insensitive keys in Python Dict.
+Borrowing [Kenneth Reitz](https://github.com/kennethreitz) code to implement case insensitive keys in Python Dict. It's from the famous [requests](https://github.com/kennethreitz/requests/blob/master/requests/structures.py) package.
 
 {% highlight python %}
 import collections
 
 class CaseInsensitiveDict(collections.MutableMapping):
-    """
-    A case-insensitive ``dict``-like object.
+    """A case-insensitive ``dict``-like object.
     Implements all methods and operations of
     ``collections.MutableMapping`` as well as dict's ``copy``. Also
     provides ``lower_items``.
@@ -20,7 +19,7 @@ class CaseInsensitiveDict(collections.MutableMapping):
     case of the last key to be set, and ``iter(instance)``,
     ``keys()``, ``items()``, ``iterkeys()``, and ``iteritems()``
     will contain case-sensitive keys. However, querying and contains
-    testing is case insensitive:
+    testing is case insensitive::
         cid = CaseInsensitiveDict()
         cid['Accept'] = 'application/json'
         cid['aCCEPT'] == 'application/json'  # True
@@ -32,8 +31,9 @@ class CaseInsensitiveDict(collections.MutableMapping):
     operations are given keys that have equal ``.lower()``s, the
     behavior is undefined.
     """
+
     def __init__(self, data=None, **kwargs):
-        self._store = dict()
+        self._store = OrderedDict()
         if data is None:
             data = {}
         self.update(data, **kwargs)
@@ -73,9 +73,8 @@ class CaseInsensitiveDict(collections.MutableMapping):
 
     # Copy is required
     def copy(self):
-         return CaseInsensitiveDict(self._store.values())
+        return CaseInsensitiveDict(self._store.values())
 
     def __repr__(self):
-		return '%s(%r)' % (self.__class__.__name__, dict(self.items()))
-
+		return str(dict(self.items()))
 {% endhighlight %}

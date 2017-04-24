@@ -7,10 +7,10 @@
 {% include head.html %}
 </head>
 
-<body id="post" itemscope itemtype="http://schema.org/WebPage">
+<body id="post" itemscope itemtype="http://schema.org/Blog">
 {% include navigation.html %}
 
-<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+<div id="main" role="main" itemprop="mainContentOfPage">
   <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     {% if page.image.feature %}<img src="/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
     <div class="entry-wrapper">
@@ -48,7 +48,7 @@
             <!-- /.social-share -->
         {% endif %}
       </footer>
-      <div class="entry-content" itemprop="description">
+      <div class="entry-content" itemprop="articleBody">
         {{ content }}
         {% if site.disqus_shortname and page.comments != false %}
             <div id="disqus_thread"></div>
@@ -56,7 +56,7 @@
         {% endif %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
-    <nav class="pagination" role="navigation">
+    <nav class="pagination" role="navigation" itemprop="pagination">
       {% if page.previous %}
         <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
       {% endif %}

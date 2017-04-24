@@ -12,6 +12,10 @@
 
 <div id="main" role="main">
   <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      <div itemprop="publisher" itemscope style="display:none;">
+        <span itemprop="name">{{ site.owner.name }}</span>
+        <a itemprop="url" href="{{site.url}}/about" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span>
+      </div>
     {% if page.image.feature %}<img src="/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
@@ -22,11 +26,11 @@
           <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
         {% endif %}
       </header>
-      <footer class="entry-meta" itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <footer class="entry-meta" itemprop="author" itemtype="http://schema.org/Person">
         <img itemprop="image" src="/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
         <span class="author vcard">
             By <span itemprop="name" class="fn">
-            <a itemprop="url" href="/about" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span>
+            <a itemprop="url" href="{{site.url}}/about" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span>
         </span>
         <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><i class="icon-calendar-empty"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
         {% if page.modified %}

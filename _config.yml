@@ -63,9 +63,9 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
-  coderay:
+  syntax_highliter_opts:
     coderay_line_numbers: 
     coderay_line_numbers_start: 1
     coderay_tab_width: 4

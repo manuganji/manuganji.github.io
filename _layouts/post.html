@@ -16,10 +16,11 @@
         <span itemprop="name">{{ site.owner.name }}</span>
         <a itemprop="url" href="{{site.url}}/about" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span>
       </div>
-    {% if page.image.feature %}<img src="/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
-          <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>
+        <div>
+            {% if page.image.feature %}<img style="max-width:100%;" src="/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
+        </div>
         {% if page.link %}
           <h1 class="entry-title" itemprop="headline"><a href="{{ page.link }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %} <span class="link-arrow">&rarr;</span></a></h1>
         {% else %}
@@ -54,6 +55,7 @@
             <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
             <!-- /.social-share -->
         {% endif %}
+        <span style="text-transform:none;"><small>Tags: </small><br/>{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
       </footer>
       <div class="entry-content" itemprop="articleBody">
         {{ content }}

@@ -22,9 +22,9 @@
           <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
         {% endif %}
       </header>
-      <footer class="entry-meta">
+      <footer class="entry-meta" itemscope itemprop="author" itemtype="http://schema.org/Person">
         <img src="/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
-        <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="author vcard">
             By <span itemprop="name" class="fn">
             <a itemprop="url" href="/about" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span>
         </span>

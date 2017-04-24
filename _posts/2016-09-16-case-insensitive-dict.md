@@ -4,6 +4,7 @@ title: Case Insensitive Dict in Python
 description: "Implementation of Case Insensitive keys in python"
 categories: python
 tags: [python, collections]
+modified: 2016-09-16
 ---
 Borrowing [Kenneth Reitz](https://github.com/kennethreitz) code to implement case insensitive keys in Python Dict. It's from the famous [requests](https://github.com/kennethreitz/requests/blob/master/requests/structures.py) package.
 

@@ -23,7 +23,7 @@
         {% endif %}
       </header>
       <footer class="entry-meta" itemscope itemprop="author" itemtype="http://schema.org/Person">
-        <img src="/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
+        <img itemprop="image" src="/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
         <span class="author vcard">
             By <span itemprop="name" class="fn">
             <a itemprop="url" href="/about" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span>

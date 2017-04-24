@@ -10,6 +10,4 @@ tags: [Manu, Ganji, technology, programming, blog,]
   <li><article><a href="{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 {% endfor %}
 </ul>
-<center style="margin-top:30px;">
-    <iframe style="min-width:325px;" src="https://docs.google.com/forms/d/1OL07Y_5TqQdef2EoGwNMRCaY7yy5yD9rT5kGsAkgk1I/viewform?embedded=true" width="35%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-</center>
+{% include cont_form.html %}

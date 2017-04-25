@@ -28,9 +28,9 @@ External developer interest (Github stars) is also a decent signal but it can be
 
 Good technology has singular focus. Frequently described in words _does one thing well_. Yeah, I'm highly skeptical of any product that promises world peace.
 
-The team should ideally be artesanal. I mean professionals who view their job as **craft** and who actually care about what they sign their name on. And yeah, a decent number of experienced and _married_ folks to provide adult supervision. 
+The team should ideally be artesanal. I mean professionals who view their job as **craft** and who actually care about what they sign their name on. And yeah, a decent number of experienced and married folks to provide adult supervision. 
 
-If you still choose to adopt that new technology you should think about the learning curve and integration effort. Integration is not just about the technical requirements. Many tools have second order effects can change your workflow entirely. For example, adding a live chat widget to your marketing site. Will it actually lead to a higher customer satisfaction if your staff have to reply at mid-night hours?
+If you still choose to adopt that new technology you should think about the learning curve and integration effort. Integration is not just about the technical requirements. Many tools have second order effects that can change your workflow entirely. For example, adding a live chat widget to your marketing site. Will it actually lead to a higher customer satisfaction if your staff have to reply at mid-night hours?
 
 Lastly, you must answer why this takes priority over all the other things you can do with that time and resources. Yes even if it takes just 1 day you must still have an answer.
 

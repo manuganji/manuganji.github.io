@@ -6,13 +6,13 @@ categories: management
 tags: [technology management, project management]
 modified: 2017-4-24
 ---
-It starts with a question. Most business leaders are trying to answer one question every morning of their lives.
+Most business leaders try to answer one question every morning.
 
-> How can I lead a happy life while containing risk to my business?
+> How can I lead a happy life while containing business risk?
 
-I purposefully posed a very broad question because I believe half the answer lies in asking the right question - the most comprehensive of stake holders views and aspirations.
+Its purposefully broad because I believe half the answer lies in asking the correct question - one which is most comprehensive of stake holders views and aspirations.
 
-That question leads to several dilemmas. A few of them are:
+This question leads to several dilemmas. A few of them are:
 
 - Innovation versus Stability
 - Experience versus Fresh perspective
@@ -29,4 +29,4 @@ All of these dilemmas deserve rational answers. I'll make an attempt in these es
 
 The ideas are in the end simple but like a paradox it takes some effort to appreciate the simplicity. This is a work in progress and I'm going to update some sections based on reader feedback.
 
-[Part 1 of Management Series: When to say no to new Technology?]({{ site.baseurl }}{% post_url 2017-04-25-part-1-management-series %})
+- Essay 1: [When to say no to new Technology?]({{ site.baseurl }}{% post_url 2017-04-25-part-1-management-series %})

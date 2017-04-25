@@ -1,5 +1,5 @@
 title:            Manu Ganji             
-description:      My professional blog 
+description:      Essays on Management and Technology
 logo:             site-logo.png
 disqus_shortname: manuganji
 search:           true
@@ -34,16 +34,18 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
   - title: Home
     url: /
   - title: Tags
     url: /tags/
   - title: Articles
     url: /articles/
-  - title: Work
-    url: /work/
+#  - title: Work
+#    url: /work/
+  - title: Management
+    url: /management/starts-with-question/
+  - title: Contact
+    url: /about/
 #  - title: Resumé
 #    url: /resume.html
 #  - title: Theme Setup

@@ -3,7 +3,7 @@
     {% if page.title %}
         {{ page.title }}
          &#8211;
-    {% endif %} {{ site.title }}
+    {% endif %} | {{ site.title }} | {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}
 </title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
@@ -39,10 +39,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.min.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 <!-- Webfonts -->
 <script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
-
+<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet"> 
 <meta http-equiv="cleartype" content="on">
 
 <!-- Load Modernizr -->

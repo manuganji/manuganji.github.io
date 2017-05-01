@@ -3,7 +3,7 @@ layout: post
 title: "Part 1 of Management Series: When to say no to new Technology?"
 description: "When does it merit an upgrade?"
 categories: management
-tags: [technology management, project management]
+tags: [technology management, project management, lindy effect, antifragile]
 modified: 2017-4-25
 ---
 We've heard this story before. A new software library is open sourced on Github by a team of good samaritan developers who seek neither fame nor money. Now teams all over the world are mulling over how many lines of code it can eliminate, how it would solve all their own problems and probably deliver world peace. Your manager assigns you the responsibility for a transition plan because  _competitive edge_, _productivity_ and other buzzwords.

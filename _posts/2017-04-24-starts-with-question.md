@@ -29,4 +29,5 @@ All of these dilemmas deserve rational answers. I'll make an attempt in these es
 
 The ideas are in the end simple but like a paradox it takes some effort to appreciate the simplicity. This is a work in progress and I'm going to update some sections based on reader feedback.
 
-- Essay 1: [When to say no to new Technology?]({{ site.baseurl }}{% post_url 2017-04-25-part-1-management-series %})
+- Essay 1: [When to say no to new Technology?]({{ site.baseurl }}{% post_url 2017-04-25-say-no-new-technology %})
+- Essay 2: [Via Negativa]({{ site.baseurl }}{% post_url 2017-05-01-via-negativa %})

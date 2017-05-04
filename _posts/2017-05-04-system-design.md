@@ -6,7 +6,7 @@ categories: management
 tags: [technology management, project management, design, systems]
 modified: 2017-5-4
 ---
-Good design is half the solution. I'll list down the considerations that make a good design.
+Good design is half the solution. I'll list down the considerations that make a good design. Obvious things like Redundancy and Availability are omitted as they are sufficiently well discussed by now.
 
 # Scale
 
@@ -62,11 +62,12 @@ People are irrational. Imporant to understand that what looks good on paper is r
 
 There is an urge to look for complex answers. Simple answers are more robust to uncertainty. Complex answers are more specific and more fragile.
 
+--- 
 
-Resources
------------
+Resources to understand better.
 
 * _Small Is Beautiful_ by E F Schumacher
+* _Thinking Fast and Slow_ by Daniel Kahneman
 * _Antifragile_ by Nassim Nicholas Taleb
 * _Lean Startup_ by Eric Ries
 * [Bret Victor - Inventing on Principle](https://vimeo.com/36579366)

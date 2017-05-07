@@ -62,6 +62,10 @@ People are irrational. Imporant to understand that what looks good on paper is r
 
 There is an urge to look for complex answers. Simple answers are more robust to uncertainty. Complex answers are more specific and more fragile.
 
+# Skin in the Game
+
+Eliminate Agency problem. It happens when stake holders have asymmetric exposures to risk so that decision makers only enjoy the upside while being shielded from the downside. This is again an old idea but Taleb brought it back to focus in _Antifragile_. 
+
 --- 
 
 Resources to understand better.

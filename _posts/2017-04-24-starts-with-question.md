@@ -32,3 +32,4 @@ The ideas are in the end simple but like a paradox it takes some effort to appre
 - Essay 1: [When to say no to new Technology?]({{ site.baseurl }}{% post_url 2017-04-25-say-no-new-technology %})
 - Essay 2: [Via Negativa]({{ site.baseurl }}{% post_url 2017-05-01-via-negativa %})
 - Essay 3: [System Design]({{ site.baseurl }}{% post_url 2017-05-04-system-design %})
+- Essay 4: [Build an Artesanal Team]({{ site.baseurl }}{% post_url 2017-05-06-artesanal-team %})

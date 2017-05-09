@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Part 2 of Management Series: Via Negativa"
+title: "Via Negativa"
 description: "Knowledge through disproof and why that's superior to straight theory"
 categories: management
 tags: [technology management, project management, via negativa, antifragile]

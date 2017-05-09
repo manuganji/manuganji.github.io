@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Part 3 of Management Series: System Design"
+title: "System Design"
 description: "Elements of system design"
 categories: management
 tags: [technology management, project management, design, systems]

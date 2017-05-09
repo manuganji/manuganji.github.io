@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Part 4 of Management Series: Build an Artesanal Team"
+title: "Build an Artesanal Team"
 description: "Thoughts about the human capital"
 categories: management
 tags: [technology management, project management, work, innovation, talent, human capital]

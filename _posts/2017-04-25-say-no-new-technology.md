@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Part 1 of Management Series: When to say no to new Technology?"
+title: "When to say no to new Technology?"
 description: "When does it merit an upgrade?"
 categories: management
 tags: [technology management, project management, lindy effect, antifragile]
